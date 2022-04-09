@@ -4,10 +4,45 @@
   --red-color: #ff3150;
   --yellow-color: #ffc400;
   --section-color: #eff7fa;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Roboto", sans-serif;
   
+}
+.write.text {
+  width: 0px;
+  white-space: nowrap;
+  animation: characters 4s both 1 ;
+  ;
+  overflow: hidden;
+  
+}
+.write.text::first-letter {
+  background-color: #DC3545;
+}
+@keyframes characters {
+  from{
+    width: 0;
+
+  }
+  to {
+    width: 400px;
+
+  }
+}
+.write {
+  animation: character 4s both infinite ;
+}
+@keyframes character {
+  from{
+    width: 400px;
+
+  }
+  to {
+    width: 0;
+
+  }
 }
 .main-btn {
   background-color: var(--red-color);
@@ -39,7 +74,6 @@ body {
   color: var(--section-color);
 }
 .nav-item .nav-link.active,
-.nav-item .nav-link:focus,
 .nav-item .nav-link:hover {
   color: var(--green-color);
 }

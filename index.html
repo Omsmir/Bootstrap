@@ -23,23 +23,24 @@
             <i class="fa-solid fa-bars"></i>    
               </button>
           <div class="collapse navbar-collapse" id="main">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul id="nav" class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+                <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link p-2 p-lg-3 " href="#">Services</a>
+                <a class="nav-link p-2 p-lg-3 " href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link p-2 p-lg-3 " href="#">Portfolio</a>
+                <a class="nav-link p-2 p-lg-3 " href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link p-2 p-lg-3 " href="#">Contact</a>
+                <a class="nav-link p-2 p-lg-3 " href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link p-2 p-lg-3 " href="#">About</a>
+                <a class="nav-link p-2 p-lg-3 " href="#portfolio">Portfolio</a>
               </li>
-
+              <li class="nav-item">
+                <a class="nav-link p-2 p-lg-3 " href="#contact">Contact</a>
               </li>
              
             </ul>
@@ -52,15 +53,15 @@
           </div>
         </div>
       </nav>
-      <div class="landing d-flex justify-content-center align-items-center">
+      <div id="home" class="landing d-flex justify-content-center align-items-center">
         <div class="text-center text-light ">
-          <h1 class="fw-normal">Taste The Creativity</h1>
+          <h1 class="fw-normal write text"></h1>
           <p class="text-white-50 fs-6 mb-5">We Make Awesome Graphics and Wesites</p>
             <a class="btn rounded-pill p-2 ps-3 pe-3  main-btn" href="#">Get Started</a>
 
         </div>
       </div>
-      <div class="features text-center pt-5 pb-5">
+      <div id="features" class="features text-center pt-5 pb-5">
   <div class="container">
     <div class="main-title mt-5 mb-5 position-relative">
       <img class="mb-4" src="imgs/title.png" alt="">
@@ -104,7 +105,7 @@
   </div>
   </div>
   </div>
-  <div class="services text-center pt-5 pb-5 bg-primary">
+  <div id="services" class="services text-center pt-5 pb-5 bg-primary">
     <div class="container">
       <div class="main-title mt-5 mb-5 position-relative">
         <img class="mb-4" src="imgs/title.png" alt="">
@@ -163,7 +164,7 @@
 <a class="btn btn-danger mt-5 " href="#">See More</a>
     </div>
   </div>
-  <div class="about text-center pt-5 pb-5 ">
+  <div id="about" class="about text-center pt-5 pb-5 ">
     <div class="container">
       <div class="main-title mt-5 mb-5 position-relative">
         <img class="mb-4" src="imgs/title.png" alt="">
@@ -189,7 +190,7 @@
     </div>
 
   </div>
-  <div class="portfolio text-center pt-5 pb-5">
+  <div id="portfolio" class="portfolio text-center pt-5 pb-5">
     <div class="container pt-5 pb-5">
       <h2 class="text-warning fw-bold">Meet The Team</h2>
       <p class="text-black-50 mb-5"> Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada. </p>
@@ -343,7 +344,7 @@
       </form>
     </div>
   </div>
-  <div class="footer text-center text-md-start text-white-50 pt-5 pb-5">
+  <div id="contact" class="footer text-center text-md-start text-white-50 pt-5 pb-5">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-4">
@@ -408,6 +409,7 @@
       </div>
     </div>
   </div>
+  <script src="js/index.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
 </body>

@@ -1,3 +1,4 @@
 # Bootstrap
 Bootstrap-Tutorial
-![bootstkrap](https://github.com/Omsamiir/Bootstrap/tree/master/imgs/bootstrap.gif)
+<br>
+<a href="https://github.com/Omsamiir/Bootstrap/tree/master"><img href="https://github.com/Omsamiir/Bootstrap/tree/master/imgs/bootstrap.gif/"></a>

@@ -13,9 +13,10 @@ body {
 .write.text {
   width: 0px;
   white-space: nowrap;
-  animation: characters 4s both 1 ;
-  ;
+  animation: characters 4s both ;
+  animation-iteration-count: 2;
   overflow: hidden;
+  transition: 0.5s ease-in-out;
   
 }
 .write.text::first-letter {
@@ -32,7 +33,7 @@ body {
   }
 }
 .write {
-  animation: character 4s both infinite ;
+  animation: character 4s both 1 ;
 }
 @keyframes character {
   from{
@@ -99,6 +100,23 @@ body {
   min-height: calc(100vh - 72px);
 }
 /**Start Features **/
+@keyframes appear{
+  from{
+    opacity: 0;
+    transform: translateX(-500px);
+
+  }
+  to{    opacity: 1;
+
+
+  }
+}
+.features {
+  animation: appea 0.9s ease-in 1 ;
+  overflow: hidden;
+  opacity: 1;
+}
+
 
 .features .icon-holder {
   height: 200px;

@@ -10,6 +10,12 @@ body {
   font-family: "Roboto", sans-serif;
   
 }
+#main {
+  transition: 0.3s ease-in-out 0s;
+}
+ul li {
+  text-align: center;
+}
 .write.text {
   width: 0px;
   white-space: nowrap;
